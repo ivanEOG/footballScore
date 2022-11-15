@@ -1,0 +1,86 @@
+@font-face{
+    src: url(CursedTimerUlil-Aznm.ttf );
+    font-family: cursedTimmer;
+}
+body {
+    margin: 0;
+    background: black;
+}
+
+.container {
+    display: flex;
+    align-items: center;
+    padding: 10px;
+    max-width: 575px;
+    margin: 0px auto;
+    background: #1B244A;
+    border: 5px solid white;
+    border-radius: 5px;
+    justify-content: space-around;
+    text-align: center 
+}
+
+.team{
+    font-family: Verdana, Tahoma, sans-serif;
+    font-size: 40px;
+    color: #fff;
+    background: #1B244A;
+    margin-bottom: 20px;
+}
+
+.score{
+    margin-top: 0px;
+    margin-bottom: 26px;
+    font-family: cursedTimmer;
+    width: 155px;
+    padding: 20px 0px;
+    color: #F94F6D;
+    font-size: 90px;
+    background: black;
+    border-radius: 5px;
+}
+
+.btn{
+    font-family: cursedTimmer;
+    color: #fff;
+    padding: 4px 8px;
+    border-radius: 5px;
+    border:1px solid ;
+    background: transparent;
+}
+
+.btn:hover{
+    border-color: #00bfb3;
+    color: #00bfb3;
+}
+
+.panel-btn{
+   /* margin-bottom: 60px;*/
+}
+.stats-counter{
+    color: #fff;
+    margin-left: 5px;
+}
+
+.stats-btn{
+    display: flex;
+    justify-content: start;
+    align-items: center;
+    margin-top: 15px;
+}
+
+.general-btn{
+    font-family: cursedTimmer;
+    width: 30px;
+    height: 30px;
+    color: #fff;
+    border-radius: 5px;
+    border:1px solid ;
+    background: transparent;
+    margin-left: 5px;
+}
+
+.general-btn:hover{
+    border-color: #00bfb3;
+    color: #00bfb3;
+}
